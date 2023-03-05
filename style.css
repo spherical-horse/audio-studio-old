@@ -65,7 +65,7 @@ body {
 
 .equipment {
   /* background-image: url(assets/img/equipment.png); */
-  background-image: url(assets/img/equipment2.png);
+  background-image: url(assets/img/equipment2.webp);
 
   /* width: 621px; */
   width: 552px;
@@ -89,7 +89,7 @@ body {
 }
 
 .ketron {
-  background-image: url(assets/img/digital-piano-transformed.png);
+  background-image: url(assets/img/digital-piano-transformed.webp);
   width: 620px;
   height: 520px;
   background-repeat: no-repeat;
@@ -150,7 +150,7 @@ body {
 
 .children::after {
   content: '';
-  background-image: url(./assets/img/child.png);
+  background-image: url(./assets/img/child.webp);
   width: 570px;
   height: 570px;
 }
@@ -182,7 +182,7 @@ body {
 
 .next-block::before {
   content: '';
-  background-image: url(./assets/img/dj_equipment.png);
+  background-image: url(./assets/img/dj_equipment.webp);
   width: 570px;
   height: 570px;
 }
