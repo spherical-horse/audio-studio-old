@@ -56,18 +56,15 @@ body {
   display: flex;
   padding-left: 75px;
   padding-right: 75px;
-  /* background-color: #101d21; */
   color: #fddbb7;
   justify-content: space-between;
   background-color: #07090c;
   align-items: center;
 }
 
-.equipment {
-  /* background-image: url(assets/img/equipment.png); */
+.hero::after {
+  content: '';
   background-image: url(assets/img/equipment2.webp);
-
-  /* width: 621px; */
   width: 552px;
   height: 433px;
 }
@@ -88,15 +85,6 @@ body {
   line-height: 28px;
 }
 
-.ketron {
-  background-image: url(assets/img/digital-piano-transformed.webp);
-  width: 620px;
-  height: 520px;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
-}
-
 .audio-equipment {
   background-color: #07090c;
   display: flex;
@@ -104,6 +92,16 @@ body {
   padding-left: 75px;
   padding-right: 75px;
   align-items: center;
+}
+
+.audio-equipment::before {
+  content: '';
+  background-image: url(assets/img/digital-piano-transformed.webp);
+  width: 620px;
+  height: 520px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
 }
 
 .slogan2 {
