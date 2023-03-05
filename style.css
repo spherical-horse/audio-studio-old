@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #07090c;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fddbb7;
+  color: #151820;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.top-menu__ul {
+  display: flex;
+  gap: 43px;
+}
+
+.top-menu__logo {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.top-menu__nav {
+  display: flex;
+  align-items: center;
+}
+
+.top-menu__li {
+  font-weight: 700;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.hero {
+  display: flex;
+  padding-left: 75px;
+  padding-right: 75px;
+  /* background-color: #101d21; */
+  color: #fddbb7;
+  justify-content: space-between;
+  background-color: #07090c;
+  align-items: center;
+}
+
+.equipment {
+  /* background-image: url(assets/img/equipment.png); */
+  background-image: url(assets/img/equipment2.png);
+
+  /* width: 621px; */
+  width: 552px;
+  height: 433px;
+}
+
+.slogan {
+  max-width: 450px;
+}
+
+.slogan__large {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.slogan__small {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.ketron {
+  background-image: url(assets/img/digital-piano-transformed.png);
+  width: 620px;
+  height: 520px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.audio-equipment {
+  background-color: #07090c;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 75px;
+  padding-right: 75px;
+  align-items: center;
+}
+
+.slogan2 {
+  color: #fddbb7;
+}
+
+.slogan2__h2 {
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.playlist {
+  column-count: 2;
+  padding-left: 30px;
+}
+
+.playlist__item {
+  display: flex;
+  font-size: 16px;
+  text-transform: initial;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.playlist__button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.children {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fddbb7;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.children::after {
+  content: '';
+  background-image: url(./assets/img/child.png);
+  width: 570px;
+  height: 570px;
+}
+
+.children__text-wrapper {
+  max-width: 450px;
+}
+
+.children__h2 {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.children__description {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.next-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fddbb7;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.next-block::before {
+  content: '';
+  background-image: url(./assets/img/dj_equipment.png);
+  width: 570px;
+  height: 570px;
+}
+
+.next-block__text-wrapper {
+  max-width: 450px;
+}
+
+.next-block__h2 {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.next-block__description {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fddbb7;
+  color: #151820;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-left: 75px;
+  padding-right: 75px;
+  font-weight: 700;
+}
+
+.contacts-ul {
+  display: flex;
+  gap: 25px;
+}
+
+.design a {
+  color: #151820;
+}
