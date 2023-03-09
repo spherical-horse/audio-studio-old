@@ -19,11 +19,17 @@ body {
   margin: 0 auto;
 }
 
+.logo {
+  width: 75px;
+  height: 75px;
+}
+
 .top-menu {
   display: flex;
   justify-content: space-between;
-  background-color: #fddbb7;
-  color: #151820;
+  /* background-color: #fddbb7; */
+  background-color: rgb(7, 9, 12);
+  color: #fddbb7;
   padding-top: 30px;
   padding-bottom: 30px;
   border-top-right-radius: 20px;
@@ -41,6 +47,8 @@ body {
   font-size: 32px;
   font-weight: 700;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
 }
 
 .top-menu__nav {
@@ -206,8 +214,8 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  background-color: #fddbb7;
-  color: #151820;
+  background-color: rgb(7, 9, 12);
+  color: #fddbb7;
   padding-top: 30px;
   padding-bottom: 30px;
   border-bottom-right-radius: 20px;
@@ -223,5 +231,5 @@ body {
 }
 
 .design a {
-  color: #151820;
+  color: #fddbb7;
 }
