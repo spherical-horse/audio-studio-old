@@ -249,3 +249,19 @@ body {
   width: 570px;
   height: 570px;
 }
+
+.next-next-next-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fddbb7;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.next-next-next-block::before {
+  content: '';
+  background-image: url(./assets/img/singer-guitar.png);
+  width: 570px;
+  height: 570px;
+}
