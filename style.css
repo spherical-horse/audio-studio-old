@@ -233,3 +233,19 @@ body {
 .design a {
   color: #fddbb7;
 }
+
+.next-next-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fddbb7;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.next-next-block::after {
+  content: '';
+  background-image: url(./assets/img/guitar.png);
+  width: 570px;
+  height: 570px;
+}
