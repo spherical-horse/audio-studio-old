@@ -427,6 +427,8 @@ body {
 .next-next-block::after {
   content: '';
   background-image: url(./assets/img/guitar-cropped.webp);
+  background-repeat: no-repeat;
+  background-position: center;
   width: 570px;
   height: 570px;
 }
