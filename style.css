@@ -426,7 +426,7 @@ body {
 
 .next-next-block::after {
   content: '';
-  background-image: url(./assets/img/guitar.png);
+  background-image: url(./assets/img/guitar-cropped.webp);
   width: 570px;
   height: 570px;
 }
@@ -445,7 +445,7 @@ body {
 
 .next-next-next-block::before {
   content: '';
-  background-image: url(./assets/img/singer-guitar-cropped.png);
+  background-image: url(./assets/img/singer-guitar-cropped.webp);
   width: 570px;
   height: 570px;
   background-position: center;
