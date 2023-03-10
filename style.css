@@ -46,7 +46,6 @@ body {
 .top-menu__logo {
   font-size: 32px;
   font-weight: 700;
-  text-transform: uppercase;
   display: flex;
   align-items: center;
 }
@@ -59,7 +58,6 @@ body {
 .top-menu__li {
   font-weight: 700;
   font-size: 17px;
-  text-transform: uppercase;
 }
 
 .hero {
@@ -86,7 +84,6 @@ body {
 .slogan__large {
   font-size: 50px;
   font-weight: 700;
-  text-transform: uppercase;
   margin-bottom: 20px;
 }
 
@@ -121,7 +118,6 @@ body {
 .slogan2__h2 {
   font-weight: 700;
   font-size: 50px;
-  text-transform: uppercase;
   margin-bottom: 20px;
 }
 
@@ -170,7 +166,6 @@ body {
 .children__h2 {
   font-size: 50px;
   font-weight: 700;
-  text-transform: uppercase;
   margin-bottom: 20px;
 }
 
@@ -202,7 +197,6 @@ body {
 .next-block__h2 {
   font-size: 50px;
   font-weight: 700;
-  text-transform: uppercase;
   margin-bottom: 20px;
 }
 
