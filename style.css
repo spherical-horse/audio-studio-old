@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  /* border: 1px solid red; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -78,7 +79,7 @@ body {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .top-menu {
     padding-right: 45px;
     padding-left: 45px;
@@ -134,9 +135,14 @@ body {
 .section-container {
   padding-left: 75px;
   padding-right: 75px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 45px;
+  align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .section-container {
     padding-left: 45px;
     padding-right: 45px;
@@ -151,7 +157,24 @@ body {
 }
 
 .section {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 1080px) {
+  .image-container {
+    display: none;
+  }
+}
+
+.image-container__img {
+  max-width: 550px;
 }
 
 .hero {
@@ -164,21 +187,25 @@ body {
   align-items: center;
 }
 
-.hero::after {
+/* .hero::after {
   content: '';
   background-image: url(assets/img/equipment2.webp);
-  width: 552px;
-  height: 433px;
-}
+  /* width: 552px; */
+/* width: calc(100%);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 433px;
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 1080px) {
   .hero::after {
     display: none;
   }
-}
+} */
 
 .section-text {
-  max-width: 450px;
+  max-width: 550px;
 }
 
 .section-text__header {
@@ -197,7 +224,7 @@ body {
   margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .section-text {
     max-width: fit-content;
   }
@@ -225,7 +252,7 @@ body {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .mobile-image {
     display: block;
     margin: 0 auto;
@@ -243,7 +270,7 @@ body {
   align-items: center;
 }
 
-.audio-equipment::before {
+/* .audio-equipment::before {
   content: '';
   background-image: url(assets/img/digital-piano-transformed.webp);
   width: 620px;
@@ -251,9 +278,9 @@ body {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
-}
+} */
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .audio-equipment::before {
     display: none;
   }
@@ -291,7 +318,7 @@ body {
   margin-right: 5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
 
   .playlist {
     padding-left: 0;
@@ -311,18 +338,18 @@ body {
   padding-right: 75px; */
 }
 
-.children::after {
+/* .children::after {
   content: '';
   background-image: url(./assets/img/child.webp);
   width: 570px;
   height: 570px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .children::after {
     display: none;
   }
-}
+} */
 
 .children__text-wrapper {
   max-width: 450px;
@@ -345,7 +372,7 @@ body {
   align-items: center;
 }
 
-.next-block::before {
+/* .next-block::before {
   content: '';
   background-image: url(./assets/img/saxophonist-cropped.webp);
   width: 570px;
@@ -354,11 +381,11 @@ body {
   background-position: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .next-block::before {
     display: none;
   }
-}
+} */
 
 .next-block__text-wrapper {
   max-width: 450px;
@@ -389,7 +416,7 @@ body {
   font-weight: 700;
 }
 
-@media (max-width:768px) {
+@media (max-width:1080px) {
   .footer {
     flex-direction: column;
     padding-left: 45px;
@@ -410,7 +437,7 @@ body {
   gap: 25px;
 }
 
-@media (max-width:768px) {
+@media (max-width:1080px) {
   .contacts-ul {
     justify-content: center;
   }
@@ -426,7 +453,7 @@ body {
   align-items: center;
 }
 
-.next-next-block::after {
+/* .next-next-block::after {
   content: '';
   background-image: url(./assets/img/guitar-cropped.webp);
   background-repeat: no-repeat;
@@ -435,11 +462,11 @@ body {
   height: 570px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .next-next-block::after {
     display: none;
   }
-}
+} */
 
 .next-next-next-block {
   display: flex;
@@ -447,7 +474,7 @@ body {
   align-items: center;
 }
 
-.next-next-next-block::before {
+/* .next-next-next-block::before {
   content: '';
   background-image: url(./assets/img/singer-guitar-cropped.webp);
   width: 570px;
@@ -456,11 +483,11 @@ body {
   background-repeat: no-repeat;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .next-next-next-block::before {
     display: none;
   }
-}
+} */
 
 .copyright {
   text-align: center;
