@@ -347,9 +347,11 @@ body {
 
 .next-block::before {
   content: '';
-  background-image: url(./assets/img/dj_equipment.webp);
+  background-image: url(./assets/img/saxophonist-cropped.png);
   width: 570px;
   height: 570px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media (max-width: 768px) {
