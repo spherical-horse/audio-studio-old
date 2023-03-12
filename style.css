@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid red; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -174,37 +173,15 @@ body {
 }
 
 .image-container__img {
-  /* max-width: 550px; */
   max-width: 100%;
   height: auto;
 }
 
 .hero {
   display: flex;
-  /* padding-left: 75px;
-  padding-right: 75px; */
-  color: #fddbb7;
   justify-content: space-between;
-  background-color: #07090c;
   align-items: center;
 }
-
-/* .hero::after {
-  content: '';
-  background-image: url(assets/img/equipment2.webp);
-  /* width: 552px; */
-/* width: calc(100%);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-height: 433px;
-} */
-
-/* @media (max-width: 1080px) {
-  .hero::after {
-    display: none;
-  }
-} */
 
 .section-text {
   max-width: 550px;
@@ -265,23 +242,10 @@ height: 433px;
 }
 
 .audio-equipment {
-  background-color: #07090c;
   display: flex;
   justify-content: space-between;
-  /* padding-left: 75px;
-  padding-right: 75px; */
   align-items: center;
 }
-
-/* .audio-equipment::before {
-  content: '';
-  background-image: url(assets/img/digital-piano-transformed.webp);
-  width: 620px;
-  height: 520px;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
-} */
 
 @media (max-width: 1080px) {
   .audio-equipment::before {
@@ -336,23 +300,7 @@ height: 433px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* color: #fddbb7; */
-  /* padding-left: 75px;
-  padding-right: 75px; */
 }
-
-/* .children::after {
-  content: '';
-  background-image: url(./assets/img/child.webp);
-  width: 570px;
-  height: 570px;
-}
-
-@media (max-width: 1080px) {
-  .children::after {
-    display: none;
-  }
-} */
 
 .children__text-wrapper {
   max-width: 450px;
@@ -374,21 +322,6 @@ height: 433px;
   justify-content: space-between;
   align-items: center;
 }
-
-/* .next-block::before {
-  content: '';
-  background-image: url(./assets/img/saxophonist-cropped.webp);
-  width: 570px;
-  height: 570px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-@media (max-width: 1080px) {
-  .next-block::before {
-    display: none;
-  }
-} */
 
 .next-block__text-wrapper {
   max-width: 450px;
@@ -456,41 +389,11 @@ height: 433px;
   align-items: center;
 }
 
-/* .next-next-block::after {
-  content: '';
-  background-image: url(./assets/img/guitar-cropped.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 570px;
-  height: 570px;
-}
-
-@media (max-width: 1080px) {
-  .next-next-block::after {
-    display: none;
-  }
-} */
-
 .next-next-next-block {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-/* .next-next-next-block::before {
-  content: '';
-  background-image: url(./assets/img/singer-guitar-cropped.webp);
-  width: 570px;
-  height: 570px;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-@media (max-width: 1080px) {
-  .next-next-next-block::before {
-    display: none;
-  }
-} */
 
 .copyright {
   text-align: center;
