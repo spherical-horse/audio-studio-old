@@ -1,5 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+@font-face {
+  font-family: "Palladio";
+  src: url(assets/fonts/P052-Roman.ttf);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Palladio";
+  src: url(assets/fonts/P052-Italic.ttf);
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Palladio";
+  src: url(assets/fonts/P052-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Palladio";
+  src: url(assets/fonts/P052-BoldItalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -28,6 +60,11 @@ body {
 .top-menu__logo-img {
   width: 50px;
   margin-right: 20px;
+}
+
+.top-menu__slogan-container {
+  font-family: "Palladio", serif;
+  font-style: italic;
 }
 
 .top-menu {
@@ -193,6 +230,7 @@ body {
   .section-container {
     padding-left: 45px;
     padding-right: 45px;
+    justify-content: center;
   }
 }
 
@@ -214,7 +252,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 50%;
 }
 
 @media (max-width: 1080px) {
@@ -248,6 +286,11 @@ body {
   margin-bottom: 20px;
 }
 
+.section-text__small_poetry {
+  font-family: "Palladio";
+  padding-left: 20px;
+}
+
 @media (max-width: 1080px) {
   .section-text {
     max-width: fit-content;
@@ -255,6 +298,10 @@ body {
 
   .section-text__small::first-letter {
     margin-left: 20px;
+  }
+
+  .section-text__small_poetry::first-letter {
+    margin-left: 0;
   }
 
   .section-text__header {
