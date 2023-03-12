@@ -19,6 +19,7 @@ const closeBurgerMenu = () => {
 
 burger.addEventListener('click', () => {
   burgerMenu.classList.toggle('open');
+  document.body.classList.toggle('scroll-lock');
   transformBurger();
 });
 
@@ -30,7 +31,6 @@ document.addEventListener('click', (e) => {
   if (!isInsideBurgerMenu(e.target)) {
     closeBurgerMenu();
   }
-  e.stopImmediatePropagation();
 });
 
 topMenuItems.forEach(menuItem => {
