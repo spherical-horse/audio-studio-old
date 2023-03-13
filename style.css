@@ -24,6 +24,10 @@
   font-display: swap;
 }
 
+/* @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital@1&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital@1&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -182,7 +186,7 @@ body {
     flex-direction: column;
     margin-left: 100px;
     gap: 30px;
-    margin-top: 130px;
+    margin-top: 38px;
   }
 
   .top-menu__li {
@@ -317,10 +321,12 @@ body {
 }
 
 .section-text__small {
-  font-size: 33px;
+  font-size: 28px;
   line-height: 36px;
-  text-align: justify;
-  font-family: 'Cormorant';
+  /* text-align: justify; */
+  /* font-family: 'STIX Two Text'; */
+  font-family: "Bellota Text";
+  font-style: italic;
 }
 
 .section-text__small::first-letter {
@@ -362,6 +368,8 @@ body {
 @media (max-width: 1080px) {
   .section-text {
     max-width: fit-content;
+    display: flex;
+    flex-direction: column;
   }
 
   .section-text__small::first-letter {
@@ -383,7 +391,7 @@ body {
   .section-text__small {
     font-size: 20px;
     line-height: 24px;
-    text-align: justify;
+    /* text-align: justify; */
   }
 
   .section-text__small_poetry {
@@ -413,8 +421,7 @@ body {
 }
 
 .playlist {
-  column-count: 2;
-  padding-left: 30px;
+  column-count: 3;
 }
 
 .playlist__item {
@@ -438,10 +445,32 @@ body {
 
   .playlist {
     padding-left: 0;
+    display: inline-block;
+    margin: auto;
+    column-gap: 100px;
   }
 
   .playlist__item {
-    justify-content: center;
+    justify-content: left;
+  }
+}
+
+@media (max-width: 620px) {
+  .playlist {
+    column-gap: 0;
+    column-count: 2;
+  }
+}
+
+.music {
+  text-transform: uppercase;
+  font-family: 'Caveat';
+  font-size: 24px;
+}
+
+@media (max-width: 620px) {
+  .music {
+    font-size: 18px;
   }
 }
 
