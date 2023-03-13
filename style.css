@@ -24,6 +24,10 @@
   font-display: swap;
 }
 
+/* @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital@1&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital@1&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -317,10 +321,12 @@ body {
 }
 
 .section-text__small {
-  font-size: 33px;
+  font-size: 28px;
   line-height: 36px;
-  text-align: justify;
-  font-family: 'Cormorant';
+  /* text-align: justify; */
+  /* font-family: 'STIX Two Text'; */
+  font-family: "Bellota Text";
+  font-style: italic;
 }
 
 .section-text__small::first-letter {
