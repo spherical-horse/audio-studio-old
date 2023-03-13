@@ -24,7 +24,7 @@ burger.addEventListener('click', () => {
 });
 
 const isInsideBurgerMenu = (target) => {
-  return Boolean(target.closest('.burger') || target.closest('.top-menu__nav'));
+  return Boolean(target.closest('.burger') || target.closest('.top-menu__wrapper'));
 };
 
 document.addEventListener('click', (e) => {
