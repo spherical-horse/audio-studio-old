@@ -186,7 +186,7 @@ body {
     flex-direction: column;
     margin-left: 100px;
     gap: 30px;
-    margin-top: 130px;
+    margin-top: 38px;
   }
 
   .top-menu__li {
@@ -368,6 +368,8 @@ body {
 @media (max-width: 1080px) {
   .section-text {
     max-width: fit-content;
+    display: flex;
+    flex-direction: column;
   }
 
   .section-text__small::first-letter {
@@ -389,7 +391,7 @@ body {
   .section-text__small {
     font-size: 20px;
     line-height: 24px;
-    text-align: justify;
+    /* text-align: justify; */
   }
 
   .section-text__small_poetry {
@@ -419,8 +421,7 @@ body {
 }
 
 .playlist {
-  column-count: 2;
-  padding-left: 30px;
+  column-count: 3;
 }
 
 .playlist__item {
@@ -444,10 +445,32 @@ body {
 
   .playlist {
     padding-left: 0;
+    display: inline-block;
+    margin: auto;
+    column-gap: 100px;
   }
 
   .playlist__item {
-    justify-content: center;
+    justify-content: left;
+  }
+}
+
+@media (max-width: 620px) {
+  .playlist {
+    column-gap: 0;
+    column-count: 2;
+  }
+}
+
+.music {
+  text-transform: uppercase;
+  font-family: 'Caveat';
+  font-size: 24px;
+}
+
+@media (max-width: 620px) {
+  .music {
+    font-size: 18px;
   }
 }
 
