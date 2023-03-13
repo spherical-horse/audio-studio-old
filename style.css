@@ -42,6 +42,10 @@ ul {
   list-style-type: none;
 }
 
+a {
+  color: #fddbb7;
+}
+
 body {
   font-family: Roboto, sans-serif;
   background-color: #07090c;
@@ -110,6 +114,19 @@ body {
   font-family: Caveat, sans-serif;
 }
 
+.top-menu__contacts {
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+  font-family: Caveat, sans-serif;
+}
+
+.top-menu__contact-href {
+  font-family: Caveat, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
 .burger {
   display: none;
   user-select: none;
@@ -125,7 +142,7 @@ body {
     padding-left: 45px;
   }
 
-  .top-menu__nav {
+  .top-menu__wrapper {
     position: fixed;
     top: 0;
     right: 0;
@@ -136,6 +153,23 @@ body {
     background-color: #15181c;
     height: 100vh;
     align-items: flex-start;
+  }
+
+  .top-menu__nav {
+    margin-bottom: 50px;
+  }
+
+  .top-menu__contacts {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .top-menu__contact {
+    padding-left: 100px;
+  }
+
+  .top-menu__contact-href {
+    font-size: 26px;
   }
 
   .open {
@@ -151,7 +185,7 @@ body {
   }
 
   .top-menu__li {
-    font-size: 24px;
+    font-size: 34px;
   }
 
   .burger {
@@ -296,7 +330,7 @@ body {
 
 .section-text__small_poetry {
   font-family: "Caveat", sans-serif;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   font-size: 29px;
   line-height: 42px;
   text-align: center;
@@ -344,7 +378,7 @@ body {
 
 @media (max-width: 480px) {
   .section-text__small {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     text-align: justify;
   }
