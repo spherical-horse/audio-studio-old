@@ -379,6 +379,16 @@ body {
   margin-left: auto;
 }
 
+.section-text__ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.section-text__ul::first-letter {
+  margin-left: 0;
+}
+
 @media (max-width: 1080px) {
   .section-text {
     max-width: fit-content;
@@ -414,7 +424,7 @@ body {
   }
 
   .section-text__small_poetry {
-    text-align: center;
+    /* text-align: center; */
     padding-left: 0;
     margin-bottom: 0;
   }
@@ -467,7 +477,7 @@ body {
     padding-left: 0;
     display: inline-block;
     margin: auto;
-    column-gap: 100px;
+    column-gap: 7vw;
   }
 
   .playlist__item {
