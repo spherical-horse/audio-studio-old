@@ -121,7 +121,7 @@ body {
 }
 
 .top-menu__li:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: 0.3s;
 }
 
@@ -140,6 +140,10 @@ body {
   font-family: Cormorant, sans-serif;
   font-size: 25px;
   text-decoration: none;
+}
+
+.top-menu__contact-href:hover {
+  font-weight: 700;
 }
 
 .burger {
@@ -298,6 +302,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.section_contacts {
+  flex-direction: column;
 }
 
 .image-container {
@@ -535,6 +543,8 @@ body {
   padding-left: 75px;
   padding-right: 75px;
   font-weight: 700;
+  font-family: "Bellota Text";
+  font-style: italic;
 }
 
 @media (max-width:1080px) {
