@@ -282,6 +282,11 @@ body {
   align-items: center;
 }
 
+
+.section-container_contacts {
+  flex-direction: column;
+}
+
 @media (max-width: 1080px) {
   .section-container {
     padding-left: 45px;
@@ -302,10 +307,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.section_contacts {
-  flex-direction: column;
 }
 
 .image-container {
