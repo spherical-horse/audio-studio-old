@@ -358,6 +358,10 @@ body {
   margin-left: 20px;
 }
 
+.section-text__small_first-letter-0::first-letter {
+  margin-left: 0;
+}
+
 .section-text__small_playlist {
   margin-bottom: 20px;
 }
@@ -532,6 +536,20 @@ body {
   .music {
     font-size: 18px;
   }
+}
+
+.map {
+  display: none;
+}
+
+@media (max-width: 1080px) {
+  .map {
+    display: block;
+  }
+}
+
+.map {
+  margin-bottom: 20px;
 }
 
 .footer {
