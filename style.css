@@ -417,6 +417,13 @@ body {
   margin-left: 0;
 }
 
+.section-text__contacts {
+  display: flex;
+  max-width: none;
+  width: 100%;
+  justify-content: space-between;
+}
+
 @media (max-width: 1080px) {
   .section-text {
     max-width: fit-content;
