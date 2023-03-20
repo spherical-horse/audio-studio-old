@@ -110,22 +110,31 @@
               Настоящие акустические и электрогитары с басовым аккомпанементом.
               942 тембра с сумарной полифонией 197 нот.
             </p>
-            <figure class="playlist-wrapper">
+            <figure class="playlist-wrapper" id="playerWrapper">
               <figcaption class="playlist-wrapper__caption">
                 Образцы стилей Ketron Audya 5
               </figcaption>
+              <div class="playlist-wrapper__volume">
+                <button class="playlist-wrapper__mute">
+                  <img src="./assets/img/volume.svg" alt="volume">
+                </button>
+                <input type="range" class="playlist-wrapper__volume-control" value="0.5" name="volume" id="playerVolume"
+                  min="0" max="1" step="0.01">
+              </div>
               <ul class="playlist">
-                <li class="playlist__item">
+                <li class="playlist__item" data-player>
                   <button class="playlist__button">
                     <img width="40" height="40" src="./assets/img/play.svg" alt="play">
                   </button>
                   <div class="music">ballad</div>
+                  <audio src="./assets/audio/Dave_Koz-Awakenings.mp3" preload="metadata"></audio>
                 </li>
-                <li class="playlist__item">
+                <li class="playlist__item" data-player>
                   <button class="playlist__button">
                     <img width="40" height="40" src="./assets/img/play.svg" alt="play">
                   </button>
                   <div class="music">pop</div>
+                  <audio src="./assets/audio/Sway.mp3" preload="metadata" data-></audio>
                 </li>
                 <li class="playlist__item">
                   <button class="playlist__button">
