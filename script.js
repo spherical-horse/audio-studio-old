@@ -46,10 +46,10 @@ class AudioPlayer {
     trackSelector = '[data-player]',
     volumeSelector = '.playlist-wrapper__volume-control',
     muteButtonSelector = '.playlist-wrapper__mute',
-    playImgSrc = '/assets/img/play.svg',
-    pauseImgSrc = '/assets/img/pause.svg',
-    volumeImgSrc = '/assets/img/volume.svg',
-    muteImgSrc = '/assets/img/mute.svg',
+    playImgSrc = './assets/img/play.svg',
+    pauseImgSrc = './assets/img/pause.svg',
+    volumeImgSrc = './assets/img/volume.svg',
+    muteImgSrc = './assets/img/mute.svg',
     playImgWidthAndHeight = 40,
   ) {
     this.isPlaying = false;
