@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/img/logo1-resized.png" type="image/x-icon">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="./script.js"></script>
+  <meta name="robots" content="noindex">
+  <title>Студия звукозаписи в Санкт-Петербурге. Сведение и мастеринг, аранжировка и многое другое</title>
+  <meta name="description" content="Description о студии записи">
+</head>
+
+<body>
+  <div class="container">
+    <header class="top-menu">
+      <div class="top-menu__logo">
+        <img class="top-menu__logo-img" width="65" height="83" src="./assets/img/logo1-resized.webp" alt="logo">
+        <div class="top-menu__slogan-container">
+          <div class="top-menu__name">
+            Плюс и Минус
+          </div>
+          <div class="top-menu__site-name">
+            студия-записи.рф
+          </div>
+        </div>
+      </div>
+      <div class="burger" id="burgerIcon">
+        <div class="burger__line first"></div>
+        <div class="burger__line second"></div>
+        <div class="burger__line third"></div>
+      </div>
+      <div class="top-menu__wrapper" id="topMenu">
+        <nav class="top-menu__nav">
+          <ul class="top-menu__ul">
+            <li class="top-menu__li">
+              <a class="top-menu__href" href="#equipment">Оборудование</a>
+            </li>
+            <li class="top-menu__li">Результат</li>
+            <li class="top-menu__li">
+              <a class="top-menu__href" href="#arrangement">Аранжировка</a>
+            </li>
+            <li class="top-menu__li">
+              <a class="top-menu__href" href="#mixing">Сведение</a>
+            </li>
+            <li class="top-menu__li">
+              <a class="top-menu__href" href="#record">Запись</a>
+            </li>
+            <li class="top-menu__li">
+              <a class="top-menu__href" href="#text">Тексты</a>
+            </li>
+            <li class="top-menu__li">
+              <a class="top-menu__href" href="#digitization">Оцифровка</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="top-menu__contacts">
+          <span class="top-menu__contact">
+            <a href="tel:+79934771971" class="top-menu__contact-href">+ 7 993 477 19 71</a>
+          </span>
+          <span class="top-menu__contact">
+            <a href="mailto:uadspb@yandex.ru" class="top-menu__contact-href">uadspb@yandex.ru</a>
+          </span>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section" id="equipment">
+        <div class="section-container">
+          <div class="image-container">
+            <img src="./assets/img/digital-piano-transformed-cropped.webp" width="860" height="530"
+              class="image-container__img" alt="">
+          </div>
+          <div class="section-text">
+            <h2 class="section-text__header">
+              Ketron Audya 5
+            </h2>
+            <img src="./assets/img/digital-piano-transformed-cropped.webp" width="860" height="530" alt=""
+              class="mobile-image">
+            <p class="section-text__small section-text__small_playlist">
+              Профессиональная аранжировочная станция с максимально реалистичным звучанием
+              живых инструментов.
+              Многообразие стилей, более 500, "живые барабаны" со стерео-эффектом
+              Настоящие акустические и электрогитары с басовым аккомпанементом.
+              942 тембра с сумарной полифонией 197 нот.
+            </p>
+            <figure class="playlist-wrapper" id="extendedPlayerWrapper">
+              <figcaption class="playlist-wrapper__caption">
+                Образцы стилей Ketron Audya 5
+              </figcaption>
+              <div class="playlist-wrapper__volume">
+                <button class="playlist-wrapper__mute">
+                  <img src="./assets/img/volume.svg" alt="volume">
+                </button>
+                <input type="range" class="playlist-wrapper__volume-control" value="0.5" name="volume" id="playerVolume"
+                  min="0" max="1" step="0.01">
+              </div>
+              <ul class="playlist">
+                <li class="playlist__item" data-player>
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="playlist__before-after-wrapper">
+                    <form action="">
+                      <div class="playlist__before-after-container">
+                        <div class="playlist__label-container">
+                          <input type="radio" data-before class="playlist__input">
+                          <label class="playlist__label" for="musicDaveKozAwakeningsBefore" data-before>до</label>
+                        </div>
+                        <div class="playlist__label-container">
+                          <input type="radio" data-after class="playlist__input">
+                          <label class="playlist__label" for="musicDaveKozAwakeningsAfter" data-after>после</label>
+                        </div>
+                      </div>
+                    </form>
+                    <div class="music">Awakenings</div>
+                  </div>
+                  <audio src="./assets/audio/extended-player/Dave-Koz-Awakenings-before.mp3" preload="metadata"
+                    data-before></audio>
+                  <audio src="./assets/audio/extended-player/Dave-Koz-Awakenings-after.mp3" preload="metadata"
+                    data-after></audio>
+                </li>
+                <li class="playlist__item" data-player>
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="playlist__before-after-wrapper">
+                    <form action="">
+                      <div class="playlist__before-after-container">
+                        <div class="playlist__label-container">
+                          <input type="radio" name="music-dave-koz-awakenings" checked data-before
+                            class="playlist__input">
+                          <label class="playlist__label" data-before>до</label>
+                        </div>
+                        <div class="playlist__label-container">
+                          <input type="radio" name="music-dave-koz-awakenings" data-after class="playlist__input">
+                          <label class="playlist__label" data-after>после</label>
+                        </div>
+                      </div>
+                    </form>
+                    <div class="music">Sway</div>
+                  </div>
+                  <audio src="./assets/audio/extended-player/Sway-before.mp3" preload="metadata" data-before></audio>
+                  <audio src="./assets/audio/extended-player/Sway-after.mp3" preload="metadata" data-after></audio>
+                </li>
+                <li class="playlist__item" data-player>
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="playlist__before-after-wrapper">
+                    <form action="">
+                      <div class="playlist__before-after-container">
+                        <div class="playlist__label-container">
+                          <input type="radio" name="music-dave-koz-awakenings" checked data-before
+                            class="playlist__input">
+                          <label class="playlist__label" data-before>до</label>
+                        </div>
+                        <div class="playlist__label-container">
+                          <input type="radio" name="music-dave-koz-awakenings" data-after class="playlist__input">
+                          <label class="playlist__label" data-after>после</label>
+                        </div>
+                      </div>
+                    </form>
+                    <div class="music">Sway</div>
+                  </div>
+                  <audio src="./assets/audio/extended-player/Sway-before.mp3" preload="metadata" data-before></audio>
+                  <audio src="./assets/audio/extended-player/Sway-after.mp3" preload="metadata" data-after></audio>
+                </li>
+                <li class="playlist__item" data-player>
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="playlist__before-after-wrapper">
+                    <form action="">
+                      <div class="playlist__before-after-container">
+                        <div class="playlist__label-container">
+                          <input type="radio" name="music-dave-koz-awakenings" checked data-before
+                            class="playlist__input">
+                          <label class="playlist__label" data-before>до</label>
+                        </div>
+                        <div class="playlist__label-container">
+                          <input type="radio" name="music-dave-koz-awakenings" data-after class="playlist__input">
+                          <label class="playlist__label" data-after>после</label>
+                        </div>
+                      </div>
+                    </form>
+                    <div class="music">Sway</div>
+                  </div>
+                  <audio src="./assets/audio/extended-player/Sway-before.mp3" preload="metadata" data-before></audio>
+                  <audio src="./assets/audio/extended-player/Sway-after.mp3" preload="metadata" data-after></audio>
+                </li>
+                <li class="playlist__item" data-player>
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="playlist__before-after-wrapper">
+                    <form action="">
+                      <div class="playlist__before-after-container">
+                        <div class="playlist__label-container">
+                          <input type="radio" name="music-dave-koz-awakenings" checked data-before
+                            class="playlist__input">
+                          <label class="playlist__label" data-before>до</label>
+                        </div>
+                        <div class="playlist__label-container">
+                          <input type="radio" name="music-dave-koz-awakenings" data-after class="playlist__input">
+                          <label class="playlist__label" data-after>после</label>
+                        </div>
+                      </div>
+                    </form>
+                    <div class="music">Sway</div>
+                  </div>
+                  <audio src="./assets/audio/extended-player/Sway-before.mp3" preload="metadata" data-before></audio>
+                  <audio src="./assets/audio/extended-player/Sway-after.mp3" preload="metadata" data-after></audio>
+                </li>
+                <li class="playlist__item" data-player>
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="playlist__before-after-wrapper">
+                    <form action="">
+                      <div class="playlist__before-after-container">
+                        <div class="playlist__label-container">
+                          <input type="radio" name="music-dave-koz-awakenings" checked data-before
+                            class="playlist__input">
+                          <label class="playlist__label" data-before>до</label>
+                        </div>
+                        <div class="playlist__label-container">
+                          <input type="radio" name="music-dave-koz-awakenings" data-after class="playlist__input">
+                          <label class="playlist__label" data-after>после</label>
+                        </div>
+                      </div>
+                    </form>
+                    <div class="music">Sway</div>
+                  </div>
+                  <audio src="./assets/audio/extended-player/Sway-before.mp3" preload="metadata" data-before></audio>
+                  <audio src="./assets/audio/extended-player/Sway-after.mp3" preload="metadata" data-after></audio>
+                </li>
+                <li class="playlist__item" data-player>
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="playlist__before-after-wrapper">
+                    <form action="">
+                      <div class="playlist__before-after-container">
+                        <div class="playlist__label-container">
+                          <input type="radio" name="music-dave-koz-awakenings" checked data-before
+                            class="playlist__input">
+                          <label class="playlist__label" data-before>до</label>
+                        </div>
+                        <div class="playlist__label-container">
+                          <input type="radio" name="music-dave-koz-awakenings" data-after class="playlist__input">
+                          <label class="playlist__label" data-after>после</label>
+                        </div>
+                      </div>
+                    </form>
+                    <div class="music">Sway</div>
+                  </div>
+                  <audio src="./assets/audio/extended-player/Sway-before.mp3" preload="metadata" data-before></audio>
+                  <audio src="./assets/audio/extended-player/Sway-after.mp3" preload="metadata" data-after></audio>
+                </li>
+                <li class="playlist__item" data-player>
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="playlist__before-after-wrapper">
+                    <form action="">
+                      <div class="playlist__before-after-container">
+                        <div class="playlist__label-container">
+                          <input type="radio" name="music-dave-koz-awakenings" checked data-before
+                            class="playlist__input">
+                          <label class="playlist__label" data-before>до</label>
+                        </div>
+                        <div class="playlist__label-container">
+                          <input type="radio" name="music-dave-koz-awakenings" data-after class="playlist__input">
+                          <label class="playlist__label" data-after>после</label>
+                        </div>
+                      </div>
+                    </form>
+                    <div class="music">Sway</div>
+                  </div>
+                  <audio src="./assets/audio/extended-player/Sway-before.mp3" preload="metadata" data-before></audio>
+                  <audio src="./assets/audio/extended-player/Sway-after.mp3" preload="metadata" data-after></audio>
+                </li>
+                <li class="playlist__item" data-player>
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="playlist__before-after-wrapper">
+                    <form action="">
+                      <div class="playlist__before-after-container">
+                        <div class="playlist__label-container">
+                          <input type="radio" name="music-dave-koz-awakenings" checked data-before
+                            class="playlist__input">
+                          <label class="playlist__label" data-before>до</label>
+                        </div>
+                        <div class="playlist__label-container">
+                          <input type="radio" name="music-dave-koz-awakenings" data-after class="playlist__input">
+                          <label class="playlist__label" data-after>после</label>
+                        </div>
+                      </div>
+                    </form>
+                    <div class="music">Sway</div>
+                  </div>
+                  <audio src="./assets/audio/extended-player/Sway-before.mp3" preload="metadata" data-before></audio>
+                  <audio src="./assets/audio/extended-player/Sway-after.mp3" preload="metadata" data-after></audio>
+                </li>
+                <!-- <li class="playlist__item" data-player>
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="music">pop</div>
+                  <audio src="./assets/audio/Sway.mp3" preload="metadata"></audio>
+                </li>
+                <li class="playlist__item">
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="music">dance</div>
+                </li>
+                <li class="playlist__item">
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="music">party</div>
+                </li>
+                <li class="playlist__item">
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="music">rock</div>
+                </li>
+                <li class="playlist__item">
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="music">country</div>
+                </li>
+                <li class="playlist__item">
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="music">swing</div>
+                </li>
+                <li class="playlist__item">
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="music">latin</div>
+                </li>
+                <li class="playlist__item">
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="music">r&amp;roll</div>
+                </li>
+                <li class="playlist__item">
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="music">unplugged</div>
+                </li>
+                <li class="playlist__item">
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="music">folk</div>
+                </li>
+                <li class="playlist__item">
+                  <button class="playlist__button">
+                    <img width="40" height="40" src="./assets/img/play.svg" alt="play">
+                  </button>
+                  <div class="music">ballroom</div>
+                </li> -->
+              </ul>
+            </figure>
+
+            <p class="section-text__small ">
+              Каждый из указанных стилей, имеет от 40 до 50 вариаций по жанру.
+            </p>
+          </div>
+        </div>
+
+      </section>
+    </main>
+    <footer class="footer">
+      <ul class="contacts-ul">
+        <li class="сontacts-li">
+          <a class="href" href="tel:+79934771971">+ 7&nbsp;993&nbsp;477&nbsp;19&nbsp;71</a>
+        </li>
+        <li class="contacts-li">
+          <a class="href" href="mailto:uadspb@yandex.ru">uadspb@yandex.ru</a>
+        </li>
+      </ul>
+      <div class="copyright">
+        &copy; 2023
+      </div>
+      <div class="design">
+        Designed with <a class="href" href="https://midjourney.com/">MidJourney</a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
