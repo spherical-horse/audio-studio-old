@@ -638,6 +638,25 @@ body {
   background: #B98F4B;
 }
 
+.playlist__before-after-container {
+  display: flex;
+  gap: 10px;
+}
+
+.playlist__input {
+  display: none;
+}
+
+.playlist__label {
+  cursor: pointer;
+}
+
+.playlist__input:checked~.playlist__label {
+  font-weight: 700;
+}
+
+
+
 
 .href {
   color: #b98f4b;
