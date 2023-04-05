@@ -496,7 +496,7 @@ body {
   text-transform: initial;
   display: flex;
   align-items: center;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .playlist__button {
@@ -641,6 +641,7 @@ body {
 .playlist__before-after-container {
   display: flex;
   gap: 10px;
+  padding-bottom: 5px;
 }
 
 .playlist__input {
@@ -649,10 +650,16 @@ body {
 
 .playlist__label {
   cursor: pointer;
+  border: 1px solid #b98f4b;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 4px;
 }
 
 .playlist__input:checked~.playlist__label {
   font-weight: 700;
+  color: #15181c;
+  background-color: #b98f4b;
 }
 
 
