@@ -366,6 +366,12 @@ class Track {
     this.currentPlayingElement.addEventListener('ended', this.stop);
   }
 
+  pause = () => {
+    this.currentPlayingElement.pause();
+    this.isPlaying = false;
+    this.setButtonPlay();
+  };
+
   stop = () => {
     if (this.currentPlayingElement) {
       this.currentPlayingElement.pause();
@@ -491,11 +497,13 @@ class ExtendedPlayer {
   onClickPlay = (track, time) => {
     if (track.isPlaying) {
       const currentPlayingTrack = this.currentPlayingTrack;
-      track.stop();
+      // track.stop();
+      track.pause();
     } else {
       if (this.currentPlayingTrack) {
         if (track.n !== this.currentPlayingTrack.n) {
-          this.currentPlayingTrack.stop();
+          // this.currentPlayingTrack.stop();
+          this.currentPlayingTrack.pause();
         }
       }
       this.currentPlayingTrack = track;
