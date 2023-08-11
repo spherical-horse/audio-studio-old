@@ -215,7 +215,8 @@ body {
     justify-content: space-between;
     cursor: pointer;
     z-index: 10;
-    ;
+    background-color: transparent;
+    border: none;
   }
 
   .burger__line {
@@ -224,18 +225,19 @@ body {
     background-color: #fddbb7;
     transition: 0.3s;
     user-select: none;
+    display: block;
   }
 
-  .burger__line.first.open {
+  .top-menu__wrapper.open+.burger .burger__line.first {
     transform: translateY(14px) rotate(-45deg);
     transition: 0.3s;
   }
 
-  .burger__line.second.open {
+  .top-menu__wrapper.open+.burger .burger__line.second {
     display: none;
   }
 
-  .burger__line.third.open {
+  .top-menu__wrapper.open+.burger .burger__line.third {
     transform: translateY(-18px) rotate(45deg);
     transition: 0.3s;
   }
